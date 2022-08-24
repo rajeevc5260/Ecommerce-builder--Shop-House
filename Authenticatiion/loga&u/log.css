@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Tahoma:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans,Tahoma,sans-serif;   
+}
+section
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(15, 59, 45);
+}
+.cross
+{
+    color:white;
+    font-size: 40px;
+    font-weight: 1000;
+    padding-right: 30px;
+}
+.cross label
+{
+    cursor: pointer;
+}
+
+.cross a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+
+}
+.cross a:hover
+{
+    color: rgb(109, 105, 105);
+}
+.logsmain 
+{
+   font-size: 50px;
+   letter-spacing: 5px;
+   line-height: 8rem;
+  
+   
+}
+.logsmain a {
+  text-decoration: none;
+  color: aliceblue;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  transition: .5s;
+  
+}
+.logsmain a :hover
+{
+-webkit-text-fill-color:rgb(17, 87, 60);
+  
+}
+hr
+{
+    color: rgb(55, 107, 81);
+}
